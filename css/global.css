@@ -1,0 +1,38 @@
+:root {
+  --text-primary: #191825;
+  --text-secondary: #81808C;
+  --text-white: #FFFFFF;
+
+  --primary-blue: #17154D;
+  --secondary-blue: #354ECC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-primary);
+}
+
+/* Geral */
+/* Outline Button */
+.outline-white-primary-btn {
+  font-weight: 600;
+  color: var(--text-white);
+
+  border: solid 2px var(--text-white);
+}
+
+.outline-white-primary-btn:hover {  
+  color: var(--text-white);
+  background-color: var(--primary-blue);
+  border: solid 2px var(--primary-blue);
+}
+
+/* Container 1400px */
+.max-1400 {
+  max-width: 1360px;
+  padding: 0 20px;
+}
