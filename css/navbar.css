@@ -3,6 +3,8 @@
   width: 100vw;
   padding: 0.5rem 0;
 
+  z-index: 100;
+
   transition: background-color 0.3s;
 }
 

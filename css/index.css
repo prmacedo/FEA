@@ -30,7 +30,7 @@
 
 /* Solutions */
 #solutions {
-  padding-top: 6rem;
+  padding: 6rem 0 8rem;
 }
 
 #solutions #title {
@@ -52,7 +52,7 @@
 #solutions .my-card-list {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 4rem 2rem;  
 }
 
 #solutions .my-card,
@@ -153,6 +153,8 @@
   filter: brightness(0.9);
 }
 
+
+
 /* Responsivo */
 @media (max-width: 992px) {
   #banner {
@@ -176,5 +178,12 @@
 @media (min-width: 768px) and (max-width: 992px) {  
   #banner > .content > h1 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 80rem) {
+  #solutions .my-card-list {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
