@@ -37,16 +37,87 @@
         </h1>
 
         <div>
-          <a href="#" class="btn outline-white-primary-btn px-4 mt-4">Fale com um especialista</a>
+          <a href="#" class="btn outline-white-primary-btn px-4 mt-4" target="_blank" rel="noopener noreferrer">Fale com um especialista</a>
         </div>
       </div>
     </div>
 
-    
+    <div id="solutions">
+      <div class="container mb-5">
+        <span id="title">Nossas soluções</span>
+        <h2 class="mt-3">Conheça os serviços que vão aprimorar sua empresa</h2>
+      </div>
+
+      <div class="my-card-list container">
+        <div id="my-card-1" class="my-card">
+          <div class="my-card-front">
+            <img src="./assets/img/precificacao.png" alt="Precificação de serviço">
+            <div class="my-card-box">
+              <span>Precificação de serviço</span>
+              <img src="./assets/icon/arrow.svg" alt="Precificação de serviço">
+            </div>
+          </div>
+
+          <div class="my-card-back">
+            <h3>Precificação de serviço</h3>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar fazendo pose.Si num tem leite então</p>
+            <a href="#" class="btn my-btn-gray" target="_blank" rel="noopener noreferrer">Saiba mais</a>
+          </div>
+        </div>
+
+        <div id="my-card-2" class="my-card">
+          <div class="my-card-front">
+            <img src="./assets/img/viabilidade.png" alt="Viabilidade de projetos">
+            <div class="my-card-box">
+              <span>Viabilidade de projetos</span>
+              <img src="./assets/icon/arrow.svg" alt="Viabilidade de projetos">
+            </div>
+          </div>
+
+          <div class="my-card-back">
+            <h3>Viabilidade de projetos</h3>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar fazendo pose.Si num tem leite então</p>
+            <a href="#" class="btn my-btn-gray" target="_blank" rel="noopener noreferrer">Saiba mais</a>
+          </div>
+        </div>
+
+        <div id="my-card-3" class="my-card">
+          <div class="my-card-front">
+            <img src="./assets/img/analise.png" alt="Análise Financeira">
+            <div class="my-card-box">
+              <span>Análise Financeira</span>
+              <img src="./assets/icon/arrow.svg" alt="Análise Financeira">
+            </div>
+          </div>
+
+          <div class="my-card-back">
+            <h3>Análise Financeira</h3>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar fazendo pose.Si num tem leite então</p>
+            <a href="#" class="btn my-btn-gray" target="_blank" rel="noopener noreferrer">Saiba mais</a>
+          </div>
+        </div>
+
+        <div id="my-card-4" class="my-card">
+          <div class="my-card-front">
+            <img src="./assets/img/valuation.png" alt="Valuation Empresarial">
+            <div class="my-card-box">
+              <span>Valuation Empresarial</span>
+              <img src="./assets/icon/arrow.svg" alt="Valuation Empresarial">
+            </div>
+          </div>
+
+          <div class="my-card-back">
+            <h3>Valuation Empresarial</h3>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar fazendo pose.Si num tem leite então</p>
+            <a href="#" class="btn my-btn-gray" target="_blank" rel="noopener noreferrer">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
   <script src="./js/scripts.js"></script>
 </body>
 </html>

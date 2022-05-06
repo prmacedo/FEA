@@ -41,11 +41,19 @@ function changeNavLogo(type) {
   
 }
 
-window.addEventListener('scroll', () => {
+function changeNavState() {
   const scrollY = window.scrollY;
-    if(scrollY > 80) {
-      scrolledDownNavBackground()
-    } else {
-      scrolledUpNavBackground()
-    }
+  if(scrollY > 80) {
+    scrolledDownNavBackground()
+  } else {
+    scrolledUpNavBackground()
+  }
+}
+
+window.addEventListener('load', () => {
+  changeNavState()
+});
+
+window.addEventListener('scroll', () => {
+  changeNavState()
 });

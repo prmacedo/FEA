@@ -5,6 +5,11 @@
 
   --primary-blue: #17154D;
   --secondary-blue: #354ECC;
+
+  --white: #FFFFFF;
+  --black: #000000;
+  --gray: #C4C4C4;
+  --black-shadow: rgba(0, 0, 0, 0.25);
 }
 
 * {
