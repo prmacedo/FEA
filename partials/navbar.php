@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed">
-  <div class="container-fluid max-1400 pb-2 pb-lg-0">
+  <div class="container pb-2 pb-lg-0">
     <a class="navbar-brand" href="./">
       <img src="./assets/icon/logo-branca.png" alt="FEA Finance USP Logo">
       <img src="./assets/icon/logo-azul.png" alt="FEA Finance USP Logo" class="d-none">

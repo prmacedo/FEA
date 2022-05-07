@@ -4,6 +4,7 @@
   --text-white: #FFFFFF;
 
   --primary-blue: #17154D;
+  --primary-blue-hover: #0b0a36;;
   --secondary-blue: #354ECC;
 
   --white: #FFFFFF;
@@ -22,7 +23,7 @@
 }
 
 /* Geral */
-/* Outline Button */
+/* Buttons */
 .outline-white-primary-btn {
   font-weight: 600;
   color: var(--text-white);
@@ -30,14 +31,48 @@
   border: solid 2px var(--text-white);
 }
 
+.btn-primary-blue,
 .outline-white-primary-btn:hover {  
   color: var(--text-white);
   background-color: var(--primary-blue);
   border: solid 2px var(--primary-blue);
 }
 
+.btn-primary-blue {
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+
+  transition: transform 0.3s;
+}
+
+.btn-primary-blue:hover {
+  color: var(--text-white);
+  background-color: var(--primary-blue-hover);
+  border: solid 2px var(--primary-blue-hover);
+
+  transform: scale(1.05);
+}
+
+/* Title box */
+.title {
+  color: var(--text-white);
+  background-color: var(--primary-blue);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Tag h2 */
+h2 {
+  color: var(--primary-blue);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
 /* Container 1400px */
-.max-1400 {
-  max-width: 1360px;
+.max-1500 {
+  max-width: 1460px;
   padding: 0 20px;
+
+  margin: 0 auto;
 }

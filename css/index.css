@@ -33,20 +33,8 @@
   padding: 6rem 0 8rem;
 }
 
-#solutions #title {
-  color: var(--text-white);
-  background-color: var(--primary-blue);
-  border-radius: 1rem;
-  padding: 0.5rem 1rem;
-}
-
 #solutions h2 {
   max-width: 27ch;
-
-  color: var(--primary-blue);
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1.5;
 }
 
 #solutions .my-card-list {
@@ -153,7 +141,55 @@
   filter: brightness(0.9);
 }
 
+/* Why Us? */
+#why-us {
+  min-height: 100vh;
+}
 
+#why-us .my-container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  min-height: 45rem;  
+}
+
+#why-us .my-container > div > img {
+  width: 50rem;
+  height: 35rem;
+
+  object-fit: cover;
+}
+
+#why-us .my-container .content {
+  max-width: 35rem;
+  margin-top: 2rem;
+}
+
+#why-us .my-container .content h2 {
+  margin: 1rem 0;
+}
+
+#why-us .my-container .content p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  text-align: justify;
+
+  line-height: 2;
+}
+
+#why-us .my-container .content ul {
+  font-size: 1.125rem;
+  font-weight: 600;
+
+  color: var(--text-primary);
+
+  margin-bottom: 2rem;
+}
+
+#why-us .my-container .content ul li {
+  margin-bottom: 1rem;
+}
 
 /* Responsivo */
 @media (max-width: 992px) {
@@ -185,5 +221,12 @@
   #solutions .my-card-list {
     flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 1800px) {
+  #why-us .my-container {
+    margin-left: 0;
+    padding: 0;
   }
 }
