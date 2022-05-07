@@ -139,6 +139,16 @@
       </div>
     </div>
 
+    <div id="banner-2">
+      <div class="container">
+        <p class="text-center m-auto">Nossa missão é proteger e auxiliar sua empresa nos melhores resultados</p>
+
+        <div class="text-center mt-5">
+          <a href="#" class="btn btn-primary-blue" target="_blank" rel="noopener noreferrer">Agendar uma conversa</a>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
