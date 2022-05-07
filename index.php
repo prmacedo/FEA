@@ -117,13 +117,8 @@
 
     <div id="why-us">
       <div class="my-container container">
-        <div class="img-content">
-          <img src="./assets/img/why-us.png" alt="Por que nos escolher">
-
-          <div class="bg-blue-boxes">
-            <div class="big-box"></div>
-            <div class="small-box"></div>
-          </div>
+        <div>
+          <img src="./assets/img/why-us.png" alt="Por que nos escolher">        
         </div>
 
         <div class="content">
