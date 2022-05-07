@@ -12,16 +12,18 @@ function scrolledDownNavBackground() {
   changeNavLogo("down");
 
   navbar.classList.remove('bg-transparent');
+  navbar.classList.remove('navbar-dark');
   navbar.classList.add('bg-light');
   navbar.classList.add('navbar-light');
 }
 
 function scrolledUpNavBackground() {
   const navbar = document.querySelector('.navbar');
-
+  
   changeNavLogo("up");
-
+  
   navbar.classList.add('bg-transparent');
+  navbar.classList.add('navbar-dark');
   navbar.classList.remove('bg-light');
   navbar.classList.remove('navbar-light');
 }
