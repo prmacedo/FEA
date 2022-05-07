@@ -116,9 +116,13 @@
     </div>
 
     <div id="why-us">
-      <div class="my-container container">
+      <div class="my-container">
         <div class="left-side">
-          <img src="./assets/img/why-us.png" alt="Por que nos escolher">        
+          <img src="./assets/img/why-us.png" alt="Por que nos escolher">
+          <div class="blue-boxes">
+            <div class="big-box"></div>
+            <div class="small-box"></div>
+          </div>     
         </div>
 
         <div class="content">
@@ -129,9 +133,18 @@
           <p>Mussum Ipsum, cacilds vidis litro abertis. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.Si num tem leite então bota uma pinga aí cumpadi!Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Atirei o pau no gatis, per gatis num morreus.</p>
 
           <ul>
-            <li>Benefício 1</li>
-            <li>Benefício 2</li>
-            <li>Benefício 3</li>
+            <li>
+              <span><i data-feather="arrow-right"></i></span>
+              <span>Benefício 1</span>
+            </li>
+            <li>
+              <span><i data-feather="arrow-right"></i></span>
+              <span>Benefício 2</span>
+            </li>
+            <li>
+              <span><i data-feather="arrow-right"></i></span>
+              <span>Benefício 3</span>
+            </li>
           </ul>
 
           <a href="#" class="btn btn-primary-blue" target="_blank" rel="noopener noreferrer">Conheça nossas soluções</a>
