@@ -170,66 +170,59 @@
 
         <h2 class="text-center mt-3 mb-5">Alguns dos nossos conteúdos</h2>
 
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
-              <img src="./assets/img/blog-img.png" class="card-img-top" alt="Imagem do Blog">
-              <div class="card-body">
-                <p class="card-text">Mussum Ipsum cacilds vidis</p>
-                <div class="my-card-footer">
-                  <div>
-                    <i data-feather="clock"></i>
-                    <span>20 Out, 2022</span>
-                  </div>
-                  <div>
-                    <i data-feather="user"></i>
-                    <span>FEA Finance</span>
-                  </div>
+        <div class="grid-container">
+          <div id="card-1" class="card">
+            <img src="./assets/img/blog-img.png" class="card-img-top" alt="Imagem do Blog">
+            <div class="card-body">
+              <p class="card-text">Mussum Ipsum cacilds vidis</p>
+              <div class="my-card-footer">
+                <div>
+                  <i data-feather="clock"></i>
+                  <span>20 Out, 2022</span>
+                </div>
+                <div>
+                  <i data-feather="user"></i>
+                  <span>FEA Finance</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
-              <img src="./assets/img/blog-img.png" class="card-img-top" alt="Imagem do Blog">
-              <div class="card-body">
-                <p class="card-text">Mussum Ipsum cacilds vidis</p>
-                <div class="my-card-footer">
-                  <div>
-                    <i data-feather="clock"></i>
-                    <span>20 Out, 2022</span>
-                  </div>
-                  <div>
-                    <i data-feather="user"></i>
-                    <span>FEA Finance</span>
-                  </div>
+          <div id="card-2" class="card">
+            <img src="./assets/img/blog-img.png" class="card-img-top" alt="Imagem do Blog">
+            <div class="card-body">
+              <p class="card-text">Mussum Ipsum cacilds vidis</p>
+              <div class="my-card-footer">
+                <div>
+                  <i data-feather="clock"></i>
+                  <span>20 Out, 2022</span>
+                </div>
+                <div>
+                  <i data-feather="user"></i>
+                  <span>FEA Finance</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
-              <img src="./assets/img/blog-img.png" class="card-img-top" alt="Imagem do Blog">
-              <div class="card-body">
-                <p class="card-text">Mussum Ipsum cacilds vidis</p>
-                <div class="my-card-footer">
-                  <div>
-                    <i data-feather="clock"></i>
-                    <span>20 Out, 2022</span>
-                  </div>
-                  <div>
-                    <i data-feather="user"></i>
-                    <span>FEA Finance</span>
-                  </div>
+          <div id="card-3" class="card">
+            <img src="./assets/img/blog-img.png" class="card-img-top" alt="Imagem do Blog">
+            <div class="card-body">
+              <p class="card-text">Mussum Ipsum cacilds vidis</p>
+              <div class="my-card-footer">
+                <div>
+                  <i data-feather="clock"></i>
+                  <span>20 Out, 2022</span>
+                </div>
+                <div>
+                  <i data-feather="user"></i>
+                  <span>FEA Finance</span>
                 </div>
               </div>
-
-              <div></div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
 
