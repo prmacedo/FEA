@@ -13,7 +13,7 @@
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Hover CSS -->
   <link href="css/hover-min.css" rel="stylesheet">
@@ -225,8 +225,36 @@
 
       </div>
     </div>
-
   </main>
+
+  <footer>
+    <div class="container">
+      <div class="left-footer">
+        <p>Endereço</p>
+        <p id="address">Av. Professor Luciano Gualberto, 908 – Butantã – São Paulo – SP-  05508-010</p>
+
+        <div id="social">
+          <span><a href="https://instagram.com/feafinance?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"><i data-feather="instagram"></a></i></span>
+          <span><a href="https://m.facebook.com/FeaFinance" target="_blank" rel="noopener noreferrer"><i data-feather="facebook"></a></i></span>
+          <span><a href="https://youtube.com/channel/UC2wvCceuqHxOJQbMiHlwBvw" target="_blank" rel="noopener noreferrer"><i data-feather="youtube"></a></i></span>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <p>Conheça mais do setor financeiro acompanhando nossa newsletter</p>
+
+        <div class="d-flex align-items-center">
+          <form class="d-flex" action="" method="post">
+            <input type="email" name="email" id="email" placeholder="Seu melhor e-mail..." />
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <span id="solvum">Copyright © 2022 Todos os direitos reservados | Site produzido com <i data-feather="heart"></i> por Solvum </span>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>

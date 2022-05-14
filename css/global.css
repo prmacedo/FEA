@@ -2,15 +2,17 @@
   --text-primary: #191825;
   --text-secondary: #81808C;
   --text-white: #FFFFFF;
-
+  
   --primary-blue: #17154D;
   --primary-blue-hover: #0b0a36;;
   --secondary-blue: #354ECC;
+  --dark-blue: #191825;
 
   --white: #FFFFFF;
   --black: #000000;
   --gray: #C4C4C4;
   --black-shadow: rgba(0, 0, 0, 0.25);
+  --red: #D7443E;
 }
 
 * {
